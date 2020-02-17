@@ -1,0 +1,182 @@
+
+html {
+  background-color: white;
+
+}
+
+body {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 667px;
+  margin: auto;
+  width: 375px;
+}
+
+.container {
+
+}
+
+h1 {
+  color: red;
+  font-size: 28px;
+  margin: 15px 0 14px 16px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+p {
+  color: #232840;
+  font-weight: lighter;
+}
+
+ul {
+  height: 85%;
+  max-height: 85%;
+  overflow: scroll;
+  width: 400px;
+}
+
+/* Map */
+
+.map {
+position: relative;
+   right: 2px;
+}
+
+img.image3 {  /* location icon */
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}
+
+.location-label {
+  background-color: #3F4356;
+  border-radius: 4px
+}
+
+.frequency-label {
+  margin-left: auto;
+  padding: 5px 16px 0 0;
+}
+
+/* Full Bus element */
+.bus {
+  background-color: white;
+  border-top: 20px solid #3F4356;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 75px;
+  width: 100%;
+}
+
+/* Div making up the bus line */
+.bus-number-box {
+  height: 99%;
+  width: 78px;
+}
+
+.bus-number {
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 25px 30px 7px 16px;
+}
+
+/* Divs containing bus direction & destination */
+.info {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 10px 20px;
+}
+
+.direction {
+  margin-bottom: 10px;
+  max-height: 14px;
+  order: 0;
+}
+
+.destination {
+  color: #232840;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.middle-icons {
+  width: 20px;
+  height: 20px;
+  position: relative;
+    top: 5px;
+    bottom: 5px;
+    right: 10px;
+
+}
+
+/* Divs containing frequency & bus times */
+.time {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  order: 2;
+  padding: 5px 16px 5px 0;
+  text-align: right;
+}
+
+.am-pm {
+  font-size: 24px;
+  margin-top: 2px;
+}
+
+.every {
+  color: #646982;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.next-bus-time {
+  font-size: 28px;
+  margin: 7px 0;
+}
+
+/* Styling for rerouted bus */
+.na {
+  font-size: 28px;
+  padding-top: 30px;
+}
+
+/* Stlying for os buses */
+.os-time {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  order: 2;
+  padding: 10px 16px 5px 0;
+  text-align: right;
+}
+
+
+.resumes {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.resumetime {
+  font-size: 28px;
+  margin: 2px 0;
+}
+
+
+.alert {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  order: 1;
+}
