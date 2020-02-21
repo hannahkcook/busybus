@@ -13,8 +13,11 @@ body {
 }
 
 .container {
-
+  background-color: #646982;
+  width: 395px;
+  padding: 10px;
 }
+
 
 h1 {
   color: red;
@@ -36,7 +39,6 @@ p {
 ul {
   height: 85%;
   max-height: 85%;
-  overflow: scroll;
   width: 400px;
 }
 
